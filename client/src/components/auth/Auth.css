@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.auth-parent-container {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-container {
+  display: flex;
+  background-color: white;
+  width: fit-content;
+  padding: 2rem;
+  border-radius: 10px;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-submit {
+  padding: 0.5rem 2rem;
+  font-weight: 700;
+  font-size: medium;
+  color: white;
+  background-color: #297aff;
+  border: transparent;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+.auth-switch {
+  font-size: small;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 5px;
+  border: transparent;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+input {
+  outline: none;
+  padding: 0.75rem;
+  outline: none;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+input:focus {
+  border-color: blue;
+}
+
+.brand-title {
+  font-size: x-large;
+}
+
+.brand-slogan {
+  font-size: large;
+  color: rgb(255, 66, 208);
+}
+
+.input-heading {
+  font-size: medium;
+  font-weight: 900;
+  margin-bottom: 2px;
+}
+
+.required-span {
+  color: red;
+}
